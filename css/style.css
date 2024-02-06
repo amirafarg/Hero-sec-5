@@ -1,0 +1,370 @@
+/* reset-stert */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background: transparent;
+    padding-left: 0;
+    border: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* root */
+:root {
+    /* colors */
+    --yellow:#F2B530;
+    --dark-orenge:#CD3625;
+    --green:#216659;
+
+    /* back-grond */
+    --black:#363634;
+    --grey:#949494;
+
+    /* fonts */
+
+    /* font-size */
+    --font-size:18px;
+
+    /* font-family */
+    --poppines:'Poppins', sans-serif;
+    --Abril-Fatface:'Abril Fatface', serif;
+    --Playfair-Display: 'Playfair Display', serif;
+}
+/* reset-end */
+
+/* design-start */
+
+/* body */
+body {
+    background-color: var(--black);
+    border: 0;
+}
+
+/* header */
+header {
+    padding: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+}
+
+h2 {
+    color: var(--yellow);
+    font-family: var(--Abril-Fatface);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.color-meals {
+    color: var(--dark-orenge);
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.ancor {
+    color: white;
+    opacity: 0.5;
+    font-family: var(--poppines);
+    font-size:16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* ancor-active */
+.active:visited {
+    color: var(--yellow);
+}
+
+.dot-hom {
+    position: absolute;
+    top: 65px;
+    left:530px ;
+}
+
+.a-signin {
+   margin-top: 5px;
+}
+
+.sign {
+    display: flex;
+    gap: 20px;
+    display: inline-flex;
+    
+}
+
+.signin {
+    color: var(--yellow);
+    font-size: 16px;
+    font-family: var(--poppines);
+    font-style:normal ;
+    font-weight: 400;
+    text-decoration: underline var(--yellow);
+}
+
+.back-signup {
+    background-color: var(--yellow);
+    color: white;
+    border-radius: 32px;
+    padding: 8px 15px;
+}
+
+.signup {
+    font-size: 16px;
+    font-family: var(--poppines);
+    font-style:normal ;
+    font-weight: 400;
+    color: white;
+}
+
+/* section */
+.container {
+    padding: 40px;
+    display: inline-flex;
+    gap: 50px;
+    width: 100%;
+}
+
+.cont-1 {
+    width: 50%;
+}
+
+h1 {
+    color:white;
+    font-family: var(--Playfair-Display);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.yellow-de {
+    color: var(--yellow);
+}
+
+.orenge-ser {
+    color: var(--dark-orenge);
+}
+
+.p-sec {
+    color: var(--grey);
+    font-family: var(--poppines);
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.order {
+    color: white;
+    background-color:var(--dark-orenge) ;
+    border-radius: 32px;
+    padding: 7px 15px;
+    font-family: var(--poppines);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.learn {
+    color: var(--yellow);
+    text-decoration: underline;
+    font-family: var(--poppines);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.cont-2 {
+    margin-top: -30px;
+    width: 50%;
+    position: relative;
+}
+
+.img {
+    width: 100%;
+    filter: drop-shadow(0px 24px 50px rgba(0, 0, 0, 0.25));
+}
+
+.card {
+    width: 70%;
+}
+
+.clock {
+    position: absolute;
+    box-shadow: 0px 24px 50px 0px rgba(0, 0, 0, 0.10);
+    top: -20px;
+    left: -100px;
+}
+
+.red {
+    position: absolute;
+    top: 55px;
+    left: -100px;
+}
+
+.food {
+    box-shadow: 0px 24px 50px 0px rgba(0, 0, 0, 0.10);
+    position: absolute;
+    top: -5px;
+    left: 300px;
+}
+
+.yellow {
+    position: absolute;
+    top: 90px;
+    left: 500px;
+}
+
+.resturant {
+    position: absolute;
+    box-shadow: 0px 24px 50px 0px rgba(0, 0, 0, 0.10);
+    top: 320px;
+    left: -10px;
+}
+
+.customers {
+    position: absolute;
+    top: 240px;
+    left: 300px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 50px 0px rgba(0, 0, 0, 0.10);
+}
+
+.reviwe {
+    color: #363634;
+    font-family: var(--poppines);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.img-customer {
+    width: 150px;
+    height: 30px;
+    margin-left: -30px;
+}
+
+/* section-2 */
+.sec-2 {
+    padding: 40px;
+}
+
+.menus {
+    display: flex;
+    gap: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    color:var(--grey);
+}
+
+.menu-same {
+    display: flex;
+    background-color: var(--grey);
+    border-radius: 20px;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right:30px ;
+    gap: 15px;
+    position: relative;
+}
+
+.food-de {
+    position: absolute;
+    right: 160px;
+    bottom: -10px;
+}
+
+.flex-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.p-sec-2 {
+    color: white;
+    font-family: var(--poppines);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.serves {
+    color: var(--black);
+    font-family: var(--poppines);
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.act {
+    display: flex;
+    gap: 10px;
+}
+
+.price {
+    color: white;
+    font-family: var(--poppines);
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.action {
+    background-color: var(--yellow);
+    padding: 5px 15px;
+    border-radius: 32px;
+    color: white;
+    font-family: var(--poppines);
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.right {
+    background-color: var(--dark-orenge);
+}
+/* design-end */
